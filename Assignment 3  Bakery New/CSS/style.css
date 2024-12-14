@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+
+/*Global style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+}
+
+body {
+    font-family: "Alegreya", serif;
+}
+
+p {
+    font-family: "Alegreya Sans", sans-serif;
+    color: #686868;
+}
+
+span,
+button {
+    font-family: "Alegreya Sans", sans-serif;
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.row {
+    display: inline-block;
+    width: 49%;
+}
+
+.padding-section {
+    margin-top: 50px;
+    padding: 20px 0;
+}
+
+/*-----------------------------------------------------------------------*/
+/*------------------- Header Section ------------------------------*/
+#home {
+    background-image: url(../img/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}
+
+.hidden-layer {
+    background-color: rgba(255, 255, 255, 0.03);
+    height: 100vh;
+}
+
+#home p {
+    color: white;
+}
+
+#home a {
+    color: white;
+}
+
+/* navbar*/
+.nav {
+    padding-top: 15px;
+}
+
+.logo {
+    vertical-align: middle;
+}
+
+.logo img {
+    width: 176.5px;
+    height: 48px;
+}
+
+.logo,
+.nav-list {
+    display: inline-block;
+}
+
+.nav-list li {
+    display: inline-block;
+    margin-left: 20px;
+    height: 32px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #E0C690;
+}
+
+.nav-list {
+    margin-left: 550px;
+    padding-left: 100px;
+
+}
+
+/*end navbar*/
+.home-caption {
+    margin-top: 140px;
+    text-align: center;
+}
+
+.home-caption h1 {
+    font-size: 76px;
+    font-weight: 400;
+    margin: 10px;
+    line-height: 1.2em;
+}
+
+.home-caption p {
+    line-height: 35px;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.home-caption span {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.home-btn {
+    margin-top: 10px;
+}
+
+.home-caption .btn-one {
+    background-color: #8E7754;
+    color: white;
+    padding: 15px 28px;
+    border-color: transparent;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* .home-caption .btn-one:hover{
+    background-color: white;
+    color: black;
+} */
+.home-caption .btn-two {
+    background-color: transparent;
+    color: white;
+    padding: 15px 28px;
+    border: 2px solid white;
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* .home-caption .btn-two:hover{
+    background-color: white;
+    color: black;
+
+} */
+.animation {
+    width: fit-content;
+    margin: 30px auto;
+}
+
+.animation .outer {
+    width: 20px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.animation .inner {
+    width: 8px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+/* End home section styles */
+
+/* Start who we are section styles */
+#Who {
+    margin-bottom: 50px;
+}
+
+.img-about img {
+    width: 100%;
+    height: auto;
+    padding-left: 40px;
+}
+
+.about-details img,
+.contact-details img {
+    width: 44px;
+    vertical-align: middle;
+    border: 1px solid #d9d9d9;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.about-details li,
+.contact-details li,
+.contact-details a {
+    color: #686868;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.about-details {
+    vertical-align: top;
+    margin-top: 60px;
+    padding-left: 70px;
+
+}
+
+.about-details h2,
+.contact-details h2 {
+    color: #303030;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.about-details p,
+.contact-details p {
+    line-height: 30px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+/* End who we are section styles */
+/* End Location section styles */
+#Location {
+    background-color: #f8f8f8;
+    padding-top: 50px;
+    margin: 50px 0;
+}
+
+#Location .about-details {
+    margin-right: 14px;
+    padding-top: 20px;
+}
+
+/* End Location section styles */
+/* Start Our Baking section styles */
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.heading h2 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #303030;
+    margin-bottom: 20px;
+}
+
+.heading p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #888888;
+    margin-bottom: 70px;
+}
+
+.item {
+    width: 33.333%;
+    float: left;
+    text-align: center;
+}
+
+.item img {
+    width: 85%;
+}
+
+.item h4 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #303030;
+    margin: 20px 0;
+}
+
+.item p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #686868;
+    line-height: 30px;
+    width: 90%;
+    padding-left: 35px;
+}
+
+.clr {
+    clear: both;
+}
+
+/* End Our Baking section styles */
+/* Start Contact Information section styles */
+#Contact-Information {
+    margin-top: 50px;
+    background-color: #f8f8f8;
+    padding: 50px 0;
+}
+
+.contact-details,
+.contact-map {
+    width: 50%;
+    float: left;
+}
+
+.contact-details img {
+    background-color: #8E7754;
+}
+
+.contact-map {
+    padding: 20px;
+}
+
+/* End Contact Information section styles */
+/* Start footer section styles */
+#footer {
+    background-color: #403d38;
+    padding: 50px 0;
+}
+
+.item-footer {
+    width: 22.5%;
+    float: left;
+    margin-right: 30px;
+
+}
+
+.item-footer h4 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.item-footer p,
+.item-footer a,
+.item-footer li {
+    font-family: "Alegreya Sans", sans-serif;
+    color: #686868;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+/* .item-footer li{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    
+} */
+.item-footer li:not(:last-child) {
+    /*انا عملت دي عشان اقوله ان طبق الخط اللي في الاسفل علي الكل ما عدا اخر عنصر */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.item-footer img {
+    width: 44px;
+    vertical-align: middle;
+
+}
+
+.indent {
+    display: inline-block;
+    text-indent: 47.5px;
+    /*بتخليني غير في مسافه اللي قبل بدا الكلمه */
+}
+
+.bg-image {
+    background-image: url(../img/contact-details-map.png);
+}
+
+/* End footer section styles */
+
+.end-footer {
+    padding: 50px 0;
+    background-color: #353330;
+    text-align: center;
+}
+
+.end-footer .endfooter-logo {
+    width: 353px;
+}
+
+.end-footer p {
+    color: #777;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 20px 0;
+}
+
+.end-footer .footer-icons img {
+    width: 100%;
+    }
+
+.end-footer ul li {
+    float: left;
+    width: 44px;
+}
+.footer-icons{
+    margin-left: 45%;
+    padding-left: 10px;
+}
+.footer-icons li {
+    width: fit-content;
+    margin: auto;
+    border: 2px solid #777;
+    border-radius: 50%;
+    /* padding-left: 10px; */
+    background-color: #484540;
+}
